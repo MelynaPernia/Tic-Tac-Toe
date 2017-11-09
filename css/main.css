@@ -1,0 +1,46 @@
+/*----------------Seteando----------------*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+/*----------------Fin-seteando----------------*/
+.container-section {
+  margin: auto 40%;
+}
+
+h1 {
+  margin: 5vh auto;
+}
+
+/*----------------Seteando----------------*/
+.board {
+   border: 1.5vh solid white;
+   border-collapse: collapse;
+}
+
+td {
+  border: 1vh solid black;
+  height: 10vh;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  width: 10vh;
+}
+
+td:hover {
+  background-color: #a9e2db;
+}
+
+.btn-reset {
+  border: none;
+  border-radius: 1vh;
+  padding: 2vh 5vh;
+  background-color: #052262;
+  color: #fff;
+  font-weight: bold;
+
+
+}
